@@ -1,0 +1,17 @@
+{
+  "name": "mymooc-utils",
+  "version": "1.0.0",
+  "description": "学习通小工具",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "author": "mcx",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.57.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
