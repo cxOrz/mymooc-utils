@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         i轻工大油条
+// @namespace    https://github.com/miaochenxi/
+// @version      0.1
+// @description  清理未读消息
+// @author       mcx
+// @match        *://iapp.zzuli.edu.cn/portal/portal-app/app-5/*
+// @icon         none
+// @grant        none
+// ==/UserScript==
+
 ! function () {
   if (window.location.pathname + window.location.search == '/portal/portal-app/app-5/message_center.html?type=news') {
     let url_listMsg = `http://iapp.zzuli.edu.cn/portal/app/weiMessage/listMessageIniDtoForCurrentUser`
